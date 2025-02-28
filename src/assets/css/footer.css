@@ -1,0 +1,114 @@
+/* Estilos generales */
+.footer {
+  background-color: #f5f5f5;
+  color: #333;
+  font-family: Arial, sans-serif;
+  padding: 0px 0;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+.footer-logo {
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+  margin: 10px;
+}
+
+.footer-logo img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.footer-logo p {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.footer-location {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-location h3 {
+  color: #003366;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footer-location p {
+  font-size: 0.9rem;
+  margin: 5px 0;
+}
+
+.footer-links {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-links h3 {
+  color: #003366;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin: 5px 0;
+}
+
+.footer-links a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+/*seccion de los derechos de autor*/
+
+.footer-final {
+  background-color: #003366;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.payment-icons {
+  margin-top: 30px;
+}
+
+.payment-icons img {
+  max-width: 30px;
+  margin: 0 5px;
+}

@@ -1,0 +1,137 @@
+/* Menú principal */
+nav {
+  background-color: #003366;
+  color: #f1f1f1;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo img {
+  max-width: 70px;
+  height: auto;
+}
+
+/* Links de navegación */
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a {
+  color: #f1f1f1;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #004080;
+  color: #fff;
+}
+
+/* Menú desplegable de servicios */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #003366;
+  list-style: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  border-radius: 5px;
+  display: none;
+  z-index: 2000;
+}
+
+.nav-links li:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 10px 20px;
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #004080;
+  color: #fff;
+}
+
+/* Estilo del menú hamburguesa */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+.menu-toggle .bar {
+  height: 3px;
+  width: 25px;
+  background-color: #f1f1f1;
+  margin: 4px 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.menu-toggle.open .bar:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-toggle.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.open .bar:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Comportamiento en dispositivos móviles */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #003366;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .nav-links.open {
+    display: flex;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .dropdown-menu {
+    position: static;
+    box-shadow: none;
+  }
+
+  .dropdown-menu li a {
+    padding-left: 20px;
+  }
+}

@@ -1,0 +1,138 @@
+/* Fondo general del formulario */
+.contact {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #ffffff; /* Fondo blanco del formulario */
+  border: 1px solid #e0e0e0; /* Borde sutil */
+  border-radius: 12px; /* Bordes ligeramente redondeados */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05); /* Sombra suave */
+  font-family: "Inter", sans-serif; /* Fuente profesional */
+  color: #333333;
+  background: linear-gradient(135deg, #f9f9f9, #ececec); /* Fondo degradado elegante */
+}
+
+/* Fondo del cuerpo de la página */
+body {
+  background-color: #f4f4f4; /* Fondo gris claro */
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png"); /* Patrón sutil */
+  background-size: 600px; /* Ajusta el tamaño del patrón */
+  font-family: "Inter", sans-serif;
+}
+
+/* Título */
+.contact h1 {
+  font-size: 2rem;
+  color: #0074d9; /* Azul corporativo */
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Descripción */
+.contact p {
+  font-size: 1rem;
+  color: #666666; /* Gris neutro */
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* Estilos del formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Espaciado entre los elementos */
+}
+
+/* Grupo de campos */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* Espaciado entre etiqueta y campo */
+}
+
+label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333333; /* Gris oscuro */
+}
+
+/* Campos de entrada */
+input,
+textarea {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #cccccc; /* Borde neutro */
+  border-radius: 8px;
+  background-color: #f9f9f9; /* Fondo gris claro */
+  color: #333333; /* Texto oscuro */
+  transition: all 0.3s ease;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #999999; /* Placeholder gris claro */
+}
+
+input:focus,
+textarea:focus {
+  border-color: #0074d9; /* Azul corporativo en el foco */
+  background-color: #ffffff; /* Fondo blanco en foco */
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 116, 217, 0.2); /* Sombra azul suave */
+}
+
+/* Textarea */
+textarea {
+  resize: none; /* Deshabilita el cambio de tamaño */
+  height: 120px; /* Altura predeterminada */
+}
+
+/* Botón de envío */
+button {
+  padding: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #ffffff; /* Texto blanco */
+  background-color: #0074d9; /* Fondo azul corporativo */
+  border: none;
+  border-radius: 8px; /* Bordes redondeados */
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #005bb5; /* Azul más oscuro */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Sombra en hover */
+}
+
+/* Mensaje de éxito */
+.success-message {
+  color: #28a745; /* Verde profesional */
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .contact {
+    padding: 20px;
+  }
+
+  .contact h1 {
+    font-size: 1.8rem;
+  }
+
+  form {
+    gap: 15px;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}

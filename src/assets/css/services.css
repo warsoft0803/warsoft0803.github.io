@@ -1,0 +1,216 @@
+/* Estilos para la sección de héroe */
+.hero {
+  /* Posiciona el elemento relativo a otros dentro del contenedor */
+  position: relative;
+  /* Altura de la sección igual a la altura completa de la ventana del navegador */
+  height: 100vh;
+  /* Utiliza Flexbox para centrar el contenido en el contenedor */
+  display: flex;
+  /* Centra horizontalmente el contenido */
+  justify-content: center;
+  /* Centra verticalmente el contenido */
+  align-items: center;
+  /* Centra el texto dentro del contenedor */
+  text-align: center;
+  /* Oculta cualquier contenido que desborde del contenedor */
+  overflow: hidden;
+  /* Color de fondo como respaldo si la imagen de fondo no se carga */
+  background-color: #001f3f;
+}
+
+.hero-image {
+  /* La imagen se posiciona de manera absoluta respecto a la sección de héroe */
+  position: absolute;
+  /* Posiciona la imagen en la parte superior */
+  top: 0;
+  /* Posiciona la imagen en la parte izquierda */
+  left: 0;
+  /* La imagen ocupará todo el ancho del contenedor */
+  width: 100%;
+  /* La imagen ocupará todo el alto del contenedor */
+  height: 100%;
+  /* Ajusta la imagen sin deformarla, cubriendo todo el contenedor */
+  object-fit: cover;
+  /* Envía la imagen detrás del contenido textual */
+  z-index: -1;
+  /* Oscurece la imagen para mejorar la legibilidad del texto sobre ella */
+  filter: brightness(0.6);
+}
+
+.hero-content {
+  /* Define el color del texto dentro de la sección de héroe */
+  color: white;
+  /* Asegura que el contenido textual se muestre sobre la imagen de fondo */
+  z-index: 1;
+}
+
+.hero-content h1 {
+  /* Tamaño de fuente grande para el título */
+  font-size: 20px;
+  /* Establece el grosor del texto en negrita */
+  font-weight: 700;
+  /* Añade espacio debajo del título */
+  margin-bottom: 20px;
+  /* Convierte todo el texto a mayúsculas */
+  text-transform: uppercase;
+}
+
+.hero-content p {
+  /* Define un tamaño de fuente más pequeño para el párrafo */
+  font-size: 15px;
+  /* Añade un espacio debajo del párrafo */
+  margin-bottom: 5px;
+}
+
+.hero-content button {
+  /* Añade espacio interno alrededor del texto del botón */
+  padding: 12px 24px;
+  /* Color de fondo azul para el botón */
+  background-color: #0b4d3e;
+  /* Elimina el borde predeterminado del botón */
+  border: none;
+  /* Bordes ligeramente redondeados */
+  border-radius: 4px;
+  /* Tamaño de fuente moderado para el texto del botón */
+  font-size: 18px;
+  /* Color blanco para el texto del botón */
+  color: white;
+  /* Cambia el cursor a una mano cuando se pasa sobre el botón */
+  cursor: pointer;
+  /* Añade una transición suave al cambiar el color de fondo */
+  transition: background-color 0.3s ease;
+}
+
+.hero-content button:hover {
+  /* Cambia el color de fondo a un azul más oscuro cuando el botón es presionado */
+  background-color: #413b0b;
+}
+
+/* Estilos para la sección de servicios */
+.services-container {
+  /* Añade espacio interno arriba y abajo de 50px, y a los lados de 20px */
+  padding: 50px 20px;
+  /* Color de fondo gris claro para la sección */
+  background-color: #f5f5f5;
+  /* Centra el texto dentro del contenedor */
+  text-align: center;
+}
+
+.services-title {
+  /* Tamaño grande de fuente para el título de la sección de servicios */
+  font-size: 36px;
+  /* Establece el grosor del texto en negrita */
+  font-weight: 600;
+  /* Color gris oscuro para el texto */
+  color: #333;
+  /* Añade espacio debajo del título */
+  margin-bottom: 40px;
+}
+
+.services-grid {
+  /* Utiliza flexbox para organizar los elementos en una columna */
+  display: flex;
+  /* Alinea los elementos verticalmente */
+  flex-direction: column;
+  /* Centra los elementos dentro del contenedor */
+  align-items: center;
+}
+
+.services-row {
+  /* Utiliza flexbox para organizar los servicios en filas */
+  display: flex;
+  /* Distribuye los elementos con espacio entre ellos */
+  justify-content: space-around;
+  /* Permite que los elementos se ajusten en nuevas líneas si es necesario */
+  flex-wrap: wrap;
+  /* La fila ocupará el ancho completo del contenedor */
+  width: 100%;
+  /* Limita el ancho máximo a 1200px */
+  max-width: 1200px;
+  /* Añade espacio debajo de cada fila de servicios */
+  margin-bottom: 20px;
+}
+
+.service-card {
+  /* Fondo blanco para las tarjetas */
+  background-color: white;
+  /* Bordes redondeados */
+  border-radius: 8px;
+  /* Añade una sombra ligera para dar efecto de profundidad */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* La tarjeta ocupa el 100% del ancho disponible */
+  width: 100%;
+  /* Ancho máximo de 500px por tarjeta */
+  max-width: 500px;
+  /* Añade margen alrededor de cada tarjeta */
+  margin: 10px;
+  /* Añade una transición suave para transformaciones y sombras */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  /* Eleva ligeramente la tarjeta al pasar el cursor */
+  transform: translateY(-5px);
+  /* Aumenta la sombra de la tarjeta para un efecto más pronunciado */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service-image {
+  /* La imagen ocupa todo el ancho de la tarjeta */
+  width: 100%;
+  /* Altura fija para la imagen */
+  height: 250px;
+  /* Ajusta la imagen sin distorsionarla */
+  object-fit: cover;
+  /* Redondea las esquinas superiores de la imagen */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.service-info {
+  /* Añade espacio interno alrededor del texto dentro de la tarjeta */
+  padding: 20px;
+  /* Alinea el texto a la izquierda */
+  text-align: left;
+}
+
+.service-name {
+  /* Tamaño de fuente grande para el nombre del servicio */
+  font-size: 24px;
+  /* Establece el grosor del texto en negrita */
+  font-weight: 600;
+  /* Color azul para el nombre del servicio */
+  color: #000000;
+  /* Añade espacio debajo del título */
+  margin-bottom: 10px;
+}
+
+.service-description {
+  /* Tamaño de fuente moderado para la descripción del servicio */
+  font-size: 16px;
+  /* Color gris para el texto de la descripción */
+  color: #666;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  /* Ajusta el tamaño del título en la sección de héroe en pantallas pequeñas */
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  /* Ajusta el tamaño del párrafo en la sección de héroe en pantallas pequeñas */
+  .hero-content p {
+    font-size: 20px;
+  }
+
+  /* Ajusta el tamaño del botón en pantallas pequeñas */
+  .hero-content button {
+    font-size: 16px;
+  }
+
+  /* Alinea las tarjetas de servicio en una sola columna en pantallas pequeñas */
+  .services-row {
+    flex-direction: column;
+  }
+}
