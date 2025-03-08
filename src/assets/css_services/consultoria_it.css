@@ -119,3 +119,85 @@
       font-size: 1rem;
     }
   }
+
+  /* Responsividad para pantallas menores a 768px (tablets) */
+@media (max-width: 768px) {
+  .hero {
+    height: 40vh; /* Reducir la altura del héroe */
+  }
+
+  .hero-content h1 {
+    font-size: 2rem; /* Ajustar el tamaño del título */
+  }
+
+  .hero-content p {
+    font-size: 1rem; /* Reducir el tamaño del texto */
+  }
+
+  .hero-content button {
+    padding: 10px 20px; /* Reducir el padding del botón */
+    font-size: 0.9rem; /* Reducir el tamaño de la fuente del botón */
+  }
+
+  .about-section {
+    padding: 40px 20px; /* Reducir el padding */
+  }
+
+  .content-wrapper {
+    flex-direction: column; /* Cambiar a disposición vertical */
+    gap: 20px; /* Reducir el espacio entre elementos */
+    text-align: center; /* Centrar el texto */
+  }
+
+  .content-wrapper.reverse {
+    flex-direction: column; /* Mantener la disposición vertical incluso en reversa */
+  }
+
+  .text h2 {
+    font-size: 1.8rem; /* Reducir el tamaño del título */
+  }
+
+  .text p {
+    font-size: 1rem; /* Reducir el tamaño del texto */
+  }
+
+  .image img {
+    max-width: 90%; /* Reducir el tamaño de la imagen */
+  }
+}
+
+/* Responsividad para pantallas menores a 480px (móviles) */
+@media (max-width: 480px) {
+  .hero {
+    height: 30vh; /* Reducir aún más la altura del héroe */
+  }
+
+  .hero-content h1 {
+    font-size: 1.5rem; /* Reducir el tamaño del título */
+  }
+
+  .hero-content p {
+    font-size: 0.9rem; /* Reducir el tamaño del texto */
+  }
+
+  .hero-content button {
+    padding: 8px 16px; /* Reducir aún más el padding del botón */
+    font-size: 0.8rem; /* Reducir el tamaño de la fuente del botón */
+  }
+
+  .about-section {
+    padding: 30px 15px; /* Reducir aún más el padding */
+  }
+
+  .text h2 {
+    font-size: 1.5rem; /* Reducir el tamaño del título */
+  }
+
+  .text p {
+    font-size: 0.9rem; /* Reducir el tamaño del texto */
+  }
+
+  .image img {
+    max-width: 100%; /* Ajustar la imagen al ancho completo */
+  }
+}

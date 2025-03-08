@@ -65,3 +65,96 @@
   font-size: 1.2rem;
   color: #333;
 }
+
+/* Responsividad para pantallas menores a 768px (tablets) */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 30px 0; /* Reducir el padding */
+  }
+
+  .content-wrapper {
+    flex-direction: column; /* Cambiar a disposición vertical */
+    padding: 30px; /* Reducir el padding */
+    gap: 30px; /* Añadir espacio entre elementos */
+  }
+
+  .content-wrapper.reverse {
+    flex-direction: column; /* Mantener la disposición vertical incluso en reversa */
+  }
+
+  .text {
+    max-width: 100%; /* Ocupar todo el ancho disponible */
+    text-align: center; /* Centrar el texto */
+  }
+
+  .text h2 {
+    font-size: 2rem; /* Reducir el tamaño del título */
+  }
+
+  .text p {
+    font-size: 1rem; /* Reducir el tamaño del texto */
+  }
+
+  .image img {
+    max-width: 100%; /* Ajustar la imagen al ancho del contenedor */
+  }
+
+  .statistics-wrapper {
+    padding: 30px 0; /* Reducir el padding */
+  }
+
+  .statistics-wrapper h3 {
+    font-size: 1.8rem; /* Reducir el tamaño del título */
+    margin-bottom: 30px; /* Reducir el margen inferior */
+  }
+
+  .statistics-grid {
+    flex-direction: column; /* Cambiar a disposición vertical */
+    gap: 30px; /* Añadir espacio entre elementos */
+  }
+
+  .stat-number {
+    font-size: 2.5rem; /* Reducir el tamaño del número */
+  }
+
+  .stat p {
+    font-size: 1rem; /* Reducir el tamaño del texto */
+  }
+}
+
+/* Responsividad para pantallas menores a 480px (móviles) */
+@media (max-width: 480px) {
+  .about-section {
+    padding: 20px 0; /* Reducir aún más el padding */
+  }
+
+  .content-wrapper {
+    padding: 20px; /* Reducir el padding */
+    gap: 20px; /* Reducir el espacio entre elementos */
+  }
+
+  .text h2 {
+    font-size: 1.8rem; /* Reducir el tamaño del título */
+  }
+
+  .text p {
+    font-size: 0.9rem; /* Reducir el tamaño del texto */
+  }
+
+  .statistics-wrapper {
+    padding: 20px 0; /* Reducir el padding */
+  }
+
+  .statistics-wrapper h3 {
+    font-size: 1.5rem; /* Reducir el tamaño del título */
+    margin-bottom: 20px; /* Reducir el margen inferior */
+  }
+
+  .stat-number {
+    font-size: 2rem; /* Reducir el tamaño del número */
+  }
+
+  .stat p {
+    font-size: 0.9rem; /* Reducir el tamaño del texto */
+  }
+}

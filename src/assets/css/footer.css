@@ -112,3 +112,62 @@
   max-width: 30px;
   margin: 0 5px;
 }
+
+/* Para pantallas medianas (hasta 768px) */
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-logo,
+  .footer-location,
+  .footer-links {
+    min-width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .social-icons {
+    gap: 10px;
+  }
+}
+
+/* Para pantallas pequeñas (hasta 480px) */
+@media (max-width: 480px) {
+  .footer {
+    padding: 10px 0;
+  }
+
+  .footer-logo img {
+    max-width: 80px;
+  }
+
+  .footer-logo p {
+    font-size: 0.9rem;
+  }
+
+  .footer-location h3,
+  .footer-links h3 {
+    font-size: 1rem;
+  }
+
+  .footer-location p,
+  .footer-links a {
+    font-size: 0.8rem;
+  }
+
+  .social-icons a {
+    font-size: 1rem;
+  }
+
+  .footer-final {
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+
+  .payment-icons img {
+    max-width: 25px;
+  }
+}
+

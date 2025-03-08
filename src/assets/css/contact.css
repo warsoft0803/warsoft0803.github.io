@@ -136,3 +136,80 @@ button:hover {
     padding: 10px;
   }
 }
+
+/* Responsividad para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .contact {
+    max-width: 90%; /* Reducir el ancho máximo */
+    margin: 20px auto; /* Reducir el margen */
+    padding: 20px; /* Reducir el relleno */
+  }
+
+  .contact h1 {
+    font-size: 1.8rem; /* Reducir el tamaño del título */
+  }
+
+  .contact p {
+    font-size: 0.9rem; /* Reducir el tamaño del texto */
+    margin-bottom: 20px; /* Ajustar el margen inferior */
+  }
+
+  form {
+    gap: 15px; /* Reducir el espacio entre elementos del formulario */
+  }
+
+  input,
+  textarea {
+    padding: 10px; /* Reducir el relleno de los campos */
+    font-size: 0.9rem; /* Reducir el tamaño de la fuente */
+  }
+
+  textarea {
+    height: 100px; /* Reducir la altura del textarea */
+  }
+
+  button {
+    font-size: 1rem; /* Reducir el tamaño del botón */
+    padding: 10px; /* Reducir el relleno del botón */
+  }
+}
+
+/* Responsividad para pantallas muy pequeñas (móviles) */
+@media (max-width: 480px) {
+  .contact {
+    padding: 15px; /* Reducir aún más el relleno */
+    border-radius: 8px; /* Reducir el radio del borde */
+  }
+
+  .contact h1 {
+    font-size: 1.5rem; /* Título más pequeño */
+  }
+
+  .contact p {
+    font-size: 0.8rem; /* Texto más pequeño */
+    line-height: 1.5; /* Ajustar el interlineado */
+  }
+
+  .form-group {
+    gap: 5px; /* Reducir el espacio entre etiquetas y campos */
+  }
+
+  input,
+  textarea {
+    padding: 8px; /* Reducir el relleno */
+    font-size: 0.8rem; /* Reducir el tamaño de la fuente */
+  }
+
+  textarea {
+    height: 80px; /* Reducir la altura del textarea */
+  }
+
+  button {
+    font-size: 0.9rem; /* Reducir el tamaño del botón */
+    padding: 8px; /* Reducir el relleno del botón */
+  }
+
+  .success-message {
+    font-size: 0.9rem; /* Reducir el tamaño del mensaje de éxito */
+  }
+}

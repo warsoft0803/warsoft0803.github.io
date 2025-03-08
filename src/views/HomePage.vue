@@ -6,7 +6,9 @@
     <header class="hero">
       <div class="hero-background">
         <h1>Bienvenido a Warsoft</h1>
-        <p>Soluciones tecnológicas a medida para tu negocio.</p>
+        <p>Soluciones tecnológicas personalizadas diseñadas
+           específicamente para impulsar el crecimiento y la eficiencia de tu negocio.
+        </p>
       </div>
     </header>
     

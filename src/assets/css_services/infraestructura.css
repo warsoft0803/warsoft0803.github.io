@@ -161,22 +161,96 @@ button:hover {
   }
 }
 
-/* Responsivo */
+/* Responsividad para pantallas menores a 768px (tablets) */
 @media (max-width: 768px) {
-  .content-wrapper {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .text {
-    padding: 10px;
+  .hero {
+    height: 50vh; /* Reducir la altura del héroe */
+    padding: 60px 20px; /* Ajustar el padding */
   }
 
   .hero h1 {
-    font-size: 2rem;
+    font-size: 2rem; /* Reducir el tamaño del título */
   }
 
   .hero p {
-    font-size: 1rem;
+    font-size: 1rem; /* Reducir el tamaño del texto */
+    max-width: 90%; /* Ajustar el ancho máximo del texto */
+  }
+
+  .about-section {
+    padding: 30px 20px; /* Reducir el padding */
+  }
+
+  .content-wrapper {
+    flex-direction: column; /* Cambiar a disposición vertical */
+    text-align: center; /* Centrar el texto */
+    gap: 15px; /* Reducir el espacio entre elementos */
+  }
+
+  .content-wrapper.reverse {
+    flex-direction: column; /* Mantener la disposición vertical incluso en reversa */
+  }
+
+  .text {
+    padding: 10px; /* Reducir el padding */
+    max-width: 100%; /* Ajustar el ancho máximo del texto */
+  }
+
+  .text h2 {
+    font-size: 1.8rem; /* Reducir el tamaño del título */
+  }
+
+  .text p {
+    font-size: 0.9rem; /* Reducir el tamaño del texto */
+  }
+
+  .image {
+    max-width: 100%; /* Ajustar el ancho máximo de la imagen */
+  }
+
+  .image img {
+    max-width: 90%; /* Reducir el tamaño de la imagen */
+  }
+
+  button {
+    padding: 8px 16px; /* Reducir el padding del botón */
+    font-size: 0.9rem; /* Reducir el tamaño de la fuente del botón */
+  }
+}
+
+/* Responsividad para pantallas menores a 480px (móviles) */
+@media (max-width: 480px) {
+  .hero {
+    height: 40vh; /* Reducir aún más la altura del héroe */
+    padding: 40px 15px; /* Reducir el padding */
+  }
+
+  .hero h1 {
+    font-size: 1.5rem; /* Reducir el tamaño del título */
+  }
+
+  .hero p {
+    font-size: 0.9rem; /* Reducir el tamaño del texto */
+  }
+
+  .about-section {
+    padding: 20px 15px; /* Reducir aún más el padding */
+  }
+
+  .text h2 {
+    font-size: 1.5rem; /* Reducir el tamaño del título */
+  }
+
+  .text p {
+    font-size: 0.8rem; /* Reducir el tamaño del texto */
+  }
+
+  .image img {
+    max-width: 100%; /* Ajustar la imagen al ancho completo */
+  }
+
+  button {
+    padding: 6px 12px; /* Reducir aún más el padding del botón */
+    font-size: 0.8rem; /* Reducir el tamaño de la fuente del botón */
   }
 }

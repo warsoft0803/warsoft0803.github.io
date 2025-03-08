@@ -1,6 +1,6 @@
 /* Menú principal */
 nav {
-  background-color: #003366;
+  background-color: rgba(0, 51, 102, 0.9); /* Fondo semi-transparente */
   color: #f1f1f1;
   padding: 10px 20px;
   display: flex;
@@ -10,11 +10,21 @@ nav {
   top: 0;
   width: 100%;
   z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+nav.scrolled {
+  background-color: rgba(0, 34, 68, 0.9); /* Cambia el color al hacer scroll */
 }
 
 .logo img {
   max-width: 70px;
   height: auto;
+  transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+  transform: scale(1.05);
 }
 
 /* Links de navegación */
@@ -36,11 +46,23 @@ nav {
   padding: 10px 20px;
   font-size: 1rem;
   transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 5px;
 }
 
 .nav-links a:hover {
-  background-color: #004080;
+  background-color: rgba(255, 255, 255, 0.1); /* Efecto hover moderno */
   color: #fff;
+}
+
+/* Flecha para el menú desplegable */
+.dropdown-toggle .arrow {
+  margin-left: 5px;
+  font-size: 0.8rem;
+  transition: transform 0.3s ease;
+}
+
+.nav-links li:hover .dropdown-toggle .arrow {
+  transform: rotate(180deg); /* Gira la flecha al hacer hover */
 }
 
 /* Menú desplegable de servicios */
@@ -48,17 +70,23 @@ nav {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #003366;
+  background-color: rgba(0, 51, 102, 0.9); /* Fondo semi-transparente */
   list-style: none;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 10px 0;
   border-radius: 5px;
   display: none;
   z-index: 2000;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-.nav-links li:hover .dropdown-menu {
+.nav-links li:hover .dropdown-menu,
+.dropdown-menu.open {
   display: block;
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .dropdown-menu li a {
@@ -66,11 +94,11 @@ nav {
   padding: 10px 20px;
   color: #f1f1f1;
   text-decoration: none;
+  transition: background-color 0.3s ease;
 }
 
 .dropdown-menu li a:hover {
-  background-color: #004080;
-  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1); /* Efecto hover moderno */
 }
 
 /* Estilo del menú hamburguesa */
@@ -79,6 +107,9 @@ nav {
   flex-direction: column;
   cursor: pointer;
   z-index: 1100;
+  padding: 10px;
+  background-color: rgba(0, 51, 102, 0.9); /* Fondo semi-transparente */
+  border-radius: 5px;
 }
 
 .menu-toggle .bar {
@@ -111,13 +142,14 @@ nav {
     display: none;
     flex-direction: column;
     width: 100%;
-    background-color: #003366;
+    background-color: rgba(0, 51, 102, 0.9); /* Fondo semi-transparente */
     position: absolute;
     top: 100%;
     left: 0;
     opacity: 0;
     transform: translateY(-10px);
     transition: opacity 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
   .nav-links.open {
@@ -129,9 +161,121 @@ nav {
   .dropdown-menu {
     position: static;
     box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    border-radius: 0;
   }
 
   .dropdown-menu li a {
-    padding-left: 20px;
+    padding-left: 40px;
+  }
+}
+
+/* ===== Personalización de la barra de desplazamiento ===== */
+/* Para navegadores basados en WebKit (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 8px; /* Ancho más delgado para la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 51, 102, 0.05); /* Color de fondo de la pista más claro */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 51, 102, 0.5); /* Color de la barra más transparente */
+  border-radius: 10px;
+  border: 2px solid rgba(0, 51, 102, 0.05); /* Borde más sutil */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 51, 102, 0.7); /* Color de la barra al pasar el mouse */
+}
+
+/* Para Firefox */
+* {
+  scrollbar-width: thin; /* Ancho de la barra */
+  scrollbar-color: rgba(0, 51, 102, 0.5) rgba(0, 51, 102, 0.05); /* Color de la barra y la pista */
+}
+
+/* Para tablets en modo vertical y móviles grandes */
+@media (max-width: 1024px) {
+  .nav-links {
+    gap: 15px;
+  }
+  
+  .nav-links a {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+
+  .logo img {
+    max-width: 60px;
+  }
+}
+
+/* Para dispositivos móviles pequeños */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(0, 51, 102, 0.9);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-links.open {
+    display: flex;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .nav-links a {
+    font-size: 1rem;
+    text-align: center;
+    padding: 12px;
+    width: 100%;
+  }
+
+  .dropdown-menu {
+    position: static;
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    border-radius: 0;
+  }
+
+  .dropdown-menu li a {
+    padding-left: 40px;
+  }
+}
+
+/* Para pantallas muy pequeñas (menores de 480px) */
+@media (max-width: 480px) {
+  .logo img {
+    max-width: 50px;
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .nav-links a {
+    font-size: 0.85rem;
+    padding: 10px;
+  }
+
+  .menu-toggle .bar {
+    width: 20px;
   }
 }

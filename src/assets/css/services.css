@@ -214,3 +214,132 @@
     flex-direction: column;
   }
 }
+
+/* Estilos responsivos */
+
+/* Tablets y pantallas medianas (768px - 1023px) */
+@media (max-width: 1023px) {
+  .hero {
+    height: 80vh;
+    padding: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 24px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .hero-content button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .services-title {
+    font-size: 30px;
+  }
+
+  .services-grid {
+    align-items: stretch;
+  }
+
+  .services-row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .service-card {
+    max-width: 450px;
+  }
+}
+
+/* Móviles y pantallas pequeñas (hasta 767px) */
+@media (max-width: 767px) {
+  .hero {
+    height: 70vh;
+    padding: 15px;
+  }
+
+  .hero-content h1 {
+    font-size: 20px;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+  }
+
+  .hero-content button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .services-container {
+    padding: 30px 15px;
+  }
+
+  .services-title {
+    font-size: 26px;
+  }
+
+  .services-grid {
+    align-items: center;
+  }
+
+  .services-row {
+    flex-direction: column;
+  }
+
+  .service-card {
+    max-width: 100%;
+  }
+
+  .service-name {
+    font-size: 22px;
+  }
+
+  .service-description {
+    font-size: 14px;
+  }
+}
+
+/* Pantallas muy pequeñas (hasta 480px) */
+@media (max-width: 480px) {
+  .hero {
+    height: 60vh;
+    padding: 10px;
+  }
+
+  .hero-content h1 {
+    font-size: 18px;
+  }
+
+  .hero-content p {
+    font-size: 12px;
+  }
+
+  .hero-content button {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .services-container {
+    padding: 20px 10px;
+  }
+
+  .services-title {
+    font-size: 22px;
+  }
+
+  .service-name {
+    font-size: 20px;
+  }
+
+  .service-description {
+    font-size: 13px;
+  }
+}
+
+
+
