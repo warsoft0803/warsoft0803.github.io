@@ -34,4 +34,13 @@ const router = createRouter({
   },
 });
 
+// Integrar Google Analytics en cambios de ruta
+router.afterEach((to) => {
+  if (window.gtag) {
+    window.gtag("config", "G-39G32YCTDV", {
+      page_path: to.fullPath,
+    });
+  }
+});
+
 export default router;
