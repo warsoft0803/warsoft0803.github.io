@@ -9,7 +9,7 @@
       class="hero-image"
     />
     <div class="hero-content">
-      <h1>Soluciones en Diseño Web</h1>
+      <h1>Desarrollo web</h1>
       <p>
         Desarrollamos aplicaciones web con tecnologías modernas.
       </p>
@@ -24,7 +24,7 @@
     <!-- Servicios -->
     <div class="content-wrapper">
       <div class="text">
-        <h2>Nuestras Soluciones en Diseño Web</h2>
+        <h2>Desarrollo Web</h2>
         <p>
           Ofrecemos servicios integrales en diseño y desarrollo web, enfocados
           en crear interfaces modernas, rápidas y optimizadas. Nos especializamos en
@@ -78,7 +78,39 @@
         />
       </div>
     </div>
+
+   <!-- Valores -->
+        <div class="content-wrapper">
+        <div class="text">
+          <h2>Compromiso y Calidad</h2>
+          <p>
+            <strong>Calidad:</strong> Usamos materiales certificados y marcas líderes.<br />
+            <strong>Seguridad:</strong> Instalaciones seguras, limpias y organizadas.<br />
+            <strong>Compromiso:</strong> Garantía por escrito en todos nuestros trabajos.
+          </p>
+          <a href="#contacto">
+            <button>Solicita tu diagnóstico gratuito</button>
+          </a>
+        </div>
+      </div>
   </section>
+
+  <!-- Partners Aliados -->
+<section class="partners-section">
+  <div class="partners-container">
+    <h2>Variedad de lenguajes</h2>
+    <p class="partners-description">
+        Realizamos desarrollo web con frameworks y tecnologias modernas.
+    </p>
+    <div class="partners-logos">
+      <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Cisco" />
+      <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Panduit" />
+      <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Siemon" />
+      <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Ubiquiti" />
+    </div>
+  </div>
+</section>
+
 </template>
 
 <script>

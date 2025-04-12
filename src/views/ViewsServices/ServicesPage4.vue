@@ -80,6 +80,22 @@
       </div>
     </div>
   </section>
+
+   <!-- Partners Aliados -->
+   <section class="partners-section">
+      <div class="partners-container">
+        <h2>Partners Aliados</h2>
+        <p class="partners-description">
+          Trabajamos con marcas líderes para garantizar la calidad del mantenimiento de tus equipos.
+        </p>
+        <div class="partners-logos">
+          <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Cisco" />
+          <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="HP" />
+          <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Lenovo" />
+          <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Dell" />
+        </div>
+      </div>
+    </section>
 </template>
 
 <script>

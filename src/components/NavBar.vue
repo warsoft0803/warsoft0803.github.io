@@ -20,7 +20,8 @@
           <li><a href="/ServicesPage2">Consultoría IT</a></li>
           <li><a href="/ServicesPage3">Ciberseguridad</a></li>
           <li><a href="/ServicesPage4">Infraestructura</a></li>
-          <li><a href="#">Cableado Estructurado</a></li>
+          <li><a href="/ServicesPage5">Cableado Estructurado</a></li>
+          <li><a href="/ServicesPage6">Venta Equipos</a></li>
         </ul>
       </li>
       <li><a href="/about">Quiénes somos</a></li>

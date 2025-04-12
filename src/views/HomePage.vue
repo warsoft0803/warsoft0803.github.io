@@ -55,14 +55,30 @@
           <p>{{ service.description }}</p>
         </div>
       </div>
-      
-      <!-- Botón para ver más servicios -->
-      <div class="view-services">
-        <router-link to="/Services" class="services-button">
-          Ver más servicios
-        </router-link>
-      </div>
     </section>
+<!-- Partners Aliados -->
+<section class="partners-section">
+  <div class="partners-container">
+    <h2>Partners Aliados</h2>
+    <p class="partners-description">
+      Aliados estratégicos en soluciones de cableado estructurado e infraestructura tecnológica.
+    </p>
+    <div class="partners-slider">
+      <div class="slide-track">
+        <div class="slide"><img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Cisco" /></div>
+        <div class="slide"><img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Panduit" /></div>
+        <div class="slide"><img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Siemon" /></div>
+        <div class="slide"><img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Ubiquiti" /></div>
+
+        <!-- Copia para efecto infinito -->
+        <div class="slide"><img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Cisco" /></div>
+        <div class="slide"><img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Panduit" /></div>
+        <div class="slide"><img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Siemon" /></div>
+        <div class="slide"><img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Ubiquiti" /></div>
+      </div>
+    </div>
+  </div>
+</section>
 </template>
 
 <script>
@@ -90,14 +106,14 @@ export default {
           title: "Ciberseguridad",
           description: "Protege tus aplicaciones, sistemas críticos y datos de posibles amenazas digitales.",
           image: "ciberseguridad.jpg",
-          route: "/services/ciberseguridad", // Ruta para Ciberseguridad
+          route: "/servicesPage3", // Ruta para Ciberseguridad
         },
         {
           id: 4,
           title: "Infraestructura",
           description: "Conecta los componentes de tu organización en un solo entorno.",
           image: "infraestructura.jpg",
-          route: "/services/infraestructura", // Ruta para Infraestructura
+          route: "/servicesPage4", // Ruta para Infraestructura
         },
       ],
     };

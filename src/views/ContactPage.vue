@@ -4,7 +4,7 @@
     <p>
       Si tienes alguna pregunta, no dudes en comunicarte con nosotros mediante el siguiente formulario.
     </p>
-
+<!--en esta seccion se integra endpoint del formulario para que funcione-->
     <form action="https://formsubmit.co/478b59a40b7d2fcb0613775063de7b6b" method="POST" @submit.prevent="handleSubmit">
       <div class="form-group">
         <label for="name">Nombre:</label>
