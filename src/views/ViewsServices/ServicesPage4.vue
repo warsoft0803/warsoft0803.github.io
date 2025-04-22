@@ -74,7 +74,7 @@
           <strong>Resiliencia:</strong> Preparamos tu infraestructura ante cualquier amenaza.<br />
           <strong>Innovación:</strong> Incorporamos tecnologías emergentes tomar la mejor desicion para tu compañia.
         </p>
-        <a href="https://google.com" target="_blank">
+        <a href="https://wa.me/3166132308" target="_blank">
           <button>Solicita una evaluación de tu infraestructura</button>
         </a>
       </div>

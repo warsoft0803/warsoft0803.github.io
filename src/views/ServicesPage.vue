@@ -60,14 +60,14 @@ export default {
         },
         {
           id: 2,
-          name: "Mantenimiento Preventivo Correctivo",
+          name: "Mantenimiento Preventivo y Correctivo",
           description: "Asesoramiento en tecnologías de la información.",
           image: "mantenimiento.jpg",
           route: "/ServicesPage6",
         },
         {
           id: 3,
-          name: "Venta de equipos de computo",
+          name: "Venta equipos de computo",
           description: "Conecta los componentes de tu organización en un solo entorno.",
           image: "ventaequipos.jpg",
           route: "/ServicesPage7",

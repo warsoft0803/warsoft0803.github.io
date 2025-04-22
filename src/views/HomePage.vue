@@ -61,7 +61,7 @@
   <div class="partners-container">
     <h2>Partners Aliados</h2>
     <p class="partners-description">
-      Aliados estratégicos en soluciones de cableado estructurado e infraestructura tecnológica.
+      Aliados estratégicos en soluciones de tecnológica de la informacion.
     </p>
     <div class="partners-slider">
       <div class="slide-track">

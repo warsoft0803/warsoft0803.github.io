@@ -10,6 +10,8 @@ import ServicesPage3 from "../views/ViewsServices/ServicesPage3.vue";
 import ServicesPage4 from "../views/ViewsServices/ServicesPage4.vue";
 import ServicesPage5 from "../views/ViewsServices/ServicesPage5.vue";
 import ServicesPage6 from "../views/ViewsServices/ServicesPage6.vue";
+import ServicesPage7 from "../views/ViewsServices/ServicesPage7.vue";
+import Instalacioncctv  from "../views/ViewsServices/Instalacioncctv.vue";
 
 const routes = [
   { path: "/", name: "Home", component: Home },
@@ -22,6 +24,8 @@ const routes = [
   { path: "/servicespage4", name: "ServicesPage4", component: ServicesPage4 },
   { path: "/servicespage5", name: "ServicesPage5", component: ServicesPage5 },
   { path: "/servicespage6", name: "ServicesPage6", component: ServicesPage6 },
+  { path: "/servicespage7", name: "ServicesPage7", component: ServicesPage7 },
+  { path: "/Instalacioncctv", name: "Instalacioncctv", component: Instalacioncctv },
 ];
 
 const router = createRouter({

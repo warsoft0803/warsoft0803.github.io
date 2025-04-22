@@ -2,7 +2,7 @@
     <section class="hero">
       <img
         src="@/assets/bank_img/servicios/infraestructura/Infraestructura22.jpg"
-        alt="Mantenimiento de equipos de cómputo"
+        alt="Mantenimiento preventivo y correctivo"
         class="hero-image"
       />
       <div class="hero-content">
@@ -60,7 +60,7 @@
             <strong>Rapidez:</strong> Intervenciones técnicas en tiempos mínimos.<br />
             <strong>Confianza:</strong> Personal capacitado y garantía en nuestros servicios.
           </p>
-          <a href="#contacto">
+          <a href="/Contact">
             <button>Solicita tu revisión gratuita</button>
           </a>
         </div>
