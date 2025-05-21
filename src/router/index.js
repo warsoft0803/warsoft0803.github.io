@@ -1,30 +1,30 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import Home from "../views/HomePage.vue";
-import Services from "../views/ServicesPage.vue";
-import About from "../views/AboutPage.vue";
-import Contact from "../views/ContactPage.vue";
-import ServicesPage1 from "../views/ViewsServices/ServicesPage1.vue";
-import ServicesPage2 from "../views/ViewsServices/ServicesPage2.vue";
-import ServicesPage3 from "../views/ViewsServices/ServicesPage3.vue";
-import ServicesPage4 from "../views/ViewsServices/ServicesPage4.vue";
-import ServicesPage5 from "../views/ViewsServices/ServicesPage5.vue";
-import ServicesPage6 from "../views/ViewsServices/ServicesPage6.vue";
-import ServicesPage7 from "../views/ViewsServices/ServicesPage7.vue";
+import Inicio from "../views/Inicio.vue";
+import Servicios from "../views/Servicios.vue";
+import QuienesSomos from "../views/QuienesSomos.vue";
+import Contacto from "../views/Contacto.vue";
+import SitiosWeb from "../views/ViewsServices/SitiosWeb.vue";
+import ConsultoriaIT from "../views/ViewsServices/ConsultoriaIT.vue";
+import Ciberseguridad from "../views/ViewsServices/Ciberseguridad.vue";
+import Infraestructura from "../views/ViewsServices/Infraestructura.vue";
+import CableadoEstructurado from "../views/ViewsServices/CableadoEstructurado.vue";
+import MantenimientoPreventivoyCorrectivo from "../views/ViewsServices/MantenimientoPreventivoyCorrectivo.vue";
+import VentaEquipos from "../views/ViewsServices/VentaEquipos.vue";
 import Instalacioncctv  from "../views/ViewsServices/Instalacioncctv.vue";
 
 const routes = [
-  { path: "/", name: "Home", component: Home },
-  { path: "/services", name: "Services", component: Services },
-  { path: "/about", name: "About", component: About },
-  { path: "/contact", name: "Contact", component: Contact },
-  { path: "/servicespage1", name: "ServicesPage1", component: ServicesPage1 },
-  { path: "/servicespage2", name: "ServicesPage2", component: ServicesPage2 },
-  { path: "/servicespage3", name: "ServicesPage3", component: ServicesPage3 },
-  { path: "/servicespage4", name: "ServicesPage4", component: ServicesPage4 },
-  { path: "/servicespage5", name: "ServicesPage5", component: ServicesPage5 },
-  { path: "/servicespage6", name: "ServicesPage6", component: ServicesPage6 },
-  { path: "/servicespage7", name: "ServicesPage7", component: ServicesPage7 },
+  { path: "/", name: "Inicio", component: Inicio },
+  { path: "/servicios", name: "Servicios", component: Servicios },
+  { path: "/QuienesSomos", name: "QuienesSomos", component: QuienesSomos },
+  { path: "/contacto", name: "Contacto", component: Contacto },
+  { path: "/SitiosWeb", name: "SitiosWeb", component: SitiosWeb },
+  { path: "/ConsultoriaIT", name: "ConsultoriaIT", component: ConsultoriaIT },
+  { path: "/Ciberseguridad", name: "Ciberseguridad", component: Ciberseguridad },
+  { path: "/Infraestructura", name: "Infraestructura", component: Infraestructura },
+  { path: "/CableadoEstructurado", name: "CableadoEstructurado", component: CableadoEstructurado },
+  { path: "/MantenimientoPreventivoyCorrectivo", name: "MantenimientoPreventivoyCorrectivo", component: MantenimientoPreventivoyCorrectivo },
+  { path: "/VentaEquipos", name: "VentaEquipos", component: VentaEquipos },
   { path: "/Instalacioncctv", name: "Instalacioncctv", component: Instalacioncctv },
 ];
 

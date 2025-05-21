@@ -1,4 +1,19 @@
 <template>
+  <!--boton de whatsapp flotante-->
+
+    <!-- Botón flotante de WhatsApp -->
+    <a
+      href="https://wa.me/3166132308"
+      class="whatsapp-button"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="@/assets/bank_img/modulos/whatsapp.png"
+        alt="Chat en WhatsApp"
+      />
+    </a>
+    
   <!-- Sección de héroe con imagen de portada -->
   <section class="hero">
     <img
@@ -7,7 +22,7 @@
       class="hero-image"
     />
     <div class="hero-content">
-      <h1>Fortalece tu Infraestructura Tecnológica</h1>
+      <h1>Infraestructura Tecnológica</h1>
       <p>
         Diseñamos e implementamos soluciones para proteger tus sistemas críticos y garantizar la continuidad operativa.
       </p>

@@ -11,23 +11,23 @@
     <ul :class="['nav-links', { open: isMenuOpen }]">
       <li><a href="/">Inicio</a></li>
       <li @mouseover="showDropdown = true" @mouseleave="showDropdown = false">
-        <a href="/services" class="dropdown-toggle">
+        <a href="/Servicios" class="dropdown-toggle">
           Servicios
           <span class="arrow">▼</span> <!-- Flecha hacia abajo -->
         </a>
         <ul v-show="showDropdown || isMenuOpen" class="dropdown-menu">
-          <li><a href="/ServicesPage1">Desarrollo Web</a></li>
-          <li><a href="/ServicesPage2">Consultoría IT</a></li>
-          <li><a href="/ServicesPage3">Ciberseguridad</a></li>
-          <li><a href="/ServicesPage4">Infraestructura</a></li>
-          <li><a href="/ServicesPage5">Cableado Estructurado</a></li>
-          <li><a href="/ServicesPage6">Manto. Prev y corr</a></li>
-          <li><a href="/ServicesPage7">Venta equipos de cómputo</a></li>
+          <li><a href="/SitiosWeb">Sitios Web</a></li>
+          <li><a href="/ConsultoriaIT">Consultoría IT</a></li>
+          <li><a href="/Ciberseguridad">Ciberseguridad</a></li>
+          <li><a href="/Infraestructura">Infraestructura</a></li>
+          <li><a href="/CableadoEstructurado">Cableado Estructurado</a></li>
+          <li><a href="/MantenimientoPreventivoyCorrectivo">Manto. Prev y corr</a></li>
+          <li><a href="/VentaEquipos">Venta equipos de cómputo</a></li>
           <li><a href="/Instalacioncctv">Instalacion CCTV</a></li>
         </ul>
       </li>
-      <li><a href="/about">Quiénes somos</a></li>
-      <li><a href="/contact">Contacto</a></li>
+      <li><a href="/QuienesSomos">Quiénes somos</a></li>
+      <li><a href="/Contacto">Contacto</a></li>
     </ul>
   </nav>
 </template>

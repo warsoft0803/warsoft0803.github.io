@@ -1,7 +1,22 @@
 <template>
+  <!--boton de whatsapp flotante-->
+
+    <!-- Botón flotante de WhatsApp -->
+    <a
+      href="https://wa.me/3166132308"
+      class="whatsapp-button"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="@/assets/bank_img/modulos/whatsapp.png"
+        alt="Chat en WhatsApp"
+      />
+    </a>
+    
     <section class="hero">
       <img
-        src="@/assets/bank_img/servicios/infraestructura/Infraestructura22.jpg"
+        src="@/assets/bank_img/servicios/cableado/cableado_estructurado1.jpg"
         alt="Cableado estructurado profesional"
         class="hero-image"
       />
@@ -23,7 +38,7 @@
           </p>
         </div>
         <div class="image">
-          <img src="@/assets/bank_img/servicios/infraestructura/Infraestructura11.jpg" alt="Diseño de red" />
+          <img src="@/assets/bank_img/servicios/cableado/cableado_estructurado2.jpg" alt="Diseño de red" />
         </div>
       </div>
   
@@ -35,7 +50,7 @@
           </p>
         </div>
         <div class="image">
-          <img src="@/assets/bank_img/servicios/infraestructura/Infraestructura33.jpg" alt="Certificación de red" />
+          <img src="@/assets/bank_img/servicios/cableado/cableado_estructurado3.jpg" alt="Certificación de red" />
         </div>
       </div>
   
@@ -47,7 +62,7 @@
           </p>
         </div>
         <div class="image">
-          <img src="@/assets/bank_img/servicios/infraestructura/Infraestructura44.jpg" alt="Soporte de red" />
+          <img src="@/assets/bank_img/servicios/cableado/cableado_estructurado4.jpg" alt="Soporte de red" />
         </div>
       </div>
   

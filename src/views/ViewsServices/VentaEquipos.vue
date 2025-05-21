@@ -1,7 +1,22 @@
 <template>
+  <!--boton de whatsapp flotante-->
+
+    <!-- Botón flotante de WhatsApp -->
+    <a
+      href="https://wa.me/3166132308"
+      class="whatsapp-button"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="@/assets/bank_img/modulos/whatsapp.png"
+        alt="Chat en WhatsApp"
+      />
+    </a>
+    
   <section class="hero">
     <img
-      src="@/assets/bank_img/servicios/infraestructura/Infraestructura22.jpg"
+      src="@/assets/bank_img/servicios/ventaequipos/ventas1.jpg"
       alt="Venta de equipos de cómputo"
       class="hero-image"
     />
@@ -23,7 +38,7 @@
         </p>
       </div>
       <div class="image">
-        <img src="@/assets/bank_img/servicios/infraestructura/Infraestructura11.jpg" alt="Equipos de escritorio y portátiles" />
+        <img src="@/assets/bank_img/servicios/ventaequipos/ventas2.jpg" alt="Equipos de escritorio y portátiles" />
       </div>
     </div>
 
@@ -35,7 +50,7 @@
         </p>
       </div>
       <div class="image">
-        <img src="@/assets/bank_img/servicios/infraestructura/Infraestructura33.jpg" alt="Accesorios y periféricos" />
+        <img src="@/assets/bank_img/servicios/ventaequipos/ventas3.jpg" alt="Accesorios y periféricos" />
       </div>
     </div>
 
@@ -47,7 +62,7 @@
         </p>
       </div>
       <div class="image">
-        <img src="@/assets/bank_img/servicios/infraestructura/Infraestructura44.jpg" alt="Asesoría en compra de equipos" />
+        <img src="@/assets/bank_img/servicios/ventaequipos/ventas4.jpg" alt="Asesoría en compra de equipos" />
       </div>
     </div>
 

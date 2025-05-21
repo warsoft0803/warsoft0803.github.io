@@ -1,6 +1,21 @@
 <!--Una página que proporciona información sobre la empresa y estadisticas los clientes.-->
 
 <template>
+<!--boton de whatsapp flotante-->
+
+    <!-- Botón flotante de WhatsApp -->
+    <a
+      href="https://wa.me/3166132308"
+      class="whatsapp-button"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="@/assets/bank_img/modulos/whatsapp.png"
+        alt="Chat en WhatsApp"
+      />
+    </a>
+
   <section class="about-section">
     <!-- Sección de Servicios -->
     <div class="content-wrapper">

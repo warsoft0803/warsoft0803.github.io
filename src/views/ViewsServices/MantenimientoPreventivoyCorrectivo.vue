@@ -1,7 +1,22 @@
 <template>
+  <!--boton de whatsapp flotante-->
+
+    <!-- Botón flotante de WhatsApp -->
+    <a
+      href="https://wa.me/3166132308"
+      class="whatsapp-button"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="@/assets/bank_img/modulos/whatsapp.png"
+        alt="Chat en WhatsApp"
+      />
+    </a>
+    
     <section class="hero">
       <img
-        src="@/assets/bank_img/servicios/infraestructura/Infraestructura22.jpg"
+        src="@/assets/bank_img/servicios/mantenimiento/mantenimiento1.jpg"
         alt="Mantenimiento preventivo y correctivo"
         class="hero-image"
       />
@@ -23,7 +38,7 @@
           </p>
         </div>
         <div class="image">
-          <img src="@/assets/bank_img/servicios/infraestructura/Infraestructura11.jpg" alt="Mantenimiento preventivo" />
+          <img src="@/assets/bank_img/servicios/mantenimiento/mantenimiento2.jpg" alt="Mantenimiento preventivo" />
         </div>
       </div>
   
@@ -35,7 +50,7 @@
           </p>
         </div>
         <div class="image">
-          <img src="@/assets/bank_img/servicios/infraestructura/Infraestructura33.jpg" alt="Mantenimiento correctivo" />
+          <img src="@/assets/bank_img/servicios/mantenimiento/mantenimiento3.jpg" alt="Mantenimiento correctivo" />
         </div>
       </div>
   
@@ -47,7 +62,7 @@
           </p>
         </div>
         <div class="image">
-          <img src="@/assets/bank_img/servicios/infraestructura/Infraestructura44.jpg" alt="Diagnóstico técnico" />
+          <img src="@/assets/bank_img/servicios/mantenimiento/mantenimiento4.jpg" alt="Diagnóstico técnico" />
         </div>
       </div>
   

@@ -1,12 +1,27 @@
 <template>
+  <!--boton de whatsapp flotante-->
+
+    <!-- Botón flotante de WhatsApp -->
+    <a
+      href="https://wa.me/3166132308"
+      class="whatsapp-button"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="@/assets/bank_img/modulos/whatsapp.png"
+        alt="Chat en WhatsApp"
+      />
+    </a>
+    
     <section class="hero">
       <img
-        src="@/assets/bank_img/servicios/infraestructura/Infraestructura22.jpg"
+        src="@/assets/bank_img/servicios/cctv/cctv1.jpg"
         alt="Soluciones de CCTV"
         class="hero-image"
       />
       <div class="hero-content">
-        <h1>Soluciones de CCTV</h1>
+        <h1>CCTV</h1>
         <p>
           Brindamos sistemas de videovigilancia adaptados a tus necesidades. Seguridad, monitoreo y control con tecnología de punta para hogares, negocios y empresas.
         </p>
@@ -23,7 +38,7 @@
           </p>
         </div>
         <div class="image">
-          <img src="@/assets/bank_img/servicios/infraestructura/Infraestructura11.jpg" alt="Instalación de cámaras de seguridad" />
+          <img src="@/assets/bank_img/servicios/cctv/cctv2.jpg" alt="Instalación de cámaras de seguridad" />
         </div>
       </div>
   
@@ -35,7 +50,7 @@
           </p>
         </div>
         <div class="image">
-          <img src="@/assets/bank_img/servicios/infraestructura/Infraestructura33.jpg" alt="Monitoreo de cámaras" />
+          <img src="@/assets/bank_img/servicios/cctv/cctv3.jpg" alt="Monitoreo de cámaras" />
         </div>
       </div>
   
@@ -47,7 +62,7 @@
           </p>
         </div>
         <div class="image">
-          <img src="@/assets/bank_img/servicios/infraestructura/Infraestructura44.jpg" alt="Mantenimiento de CCTV" />
+          <img src="@/assets/bank_img/servicios/cctv/cctv4.jpg" alt="Mantenimiento de CCTV" />
         </div>
       </div>
   

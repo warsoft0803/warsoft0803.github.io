@@ -104,15 +104,6 @@
   font-size: 0.9rem;
 }
 
-.payment-icons {
-  margin-top: 30px;
-}
-
-.payment-icons img {
-  max-width: 30px;
-  margin: 0 5px;
-}
-
 /* Para pantallas medianas (hasta 768px) */
 @media (max-width: 768px) {
   .footer-top {

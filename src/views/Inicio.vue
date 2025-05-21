@@ -5,7 +5,7 @@
     <!-- Sección de héroe -->
     <header class="hero">
       <div class="hero-background">
-        <h1>Bienvenido a Warsoft</h1>
+        <h1>Bienvenido a Tecsion Group</h1>
         <p>Soluciones tecnológicas personalizadas diseñadas
            específicamente para impulsar el crecimiento y la eficiencia de tu negocio.
         </p>
@@ -30,7 +30,7 @@
 
     <!-- Sección "¿Warsoft?" -->
     <section class="about">
-      <h2>¿Warsoft?</h2>
+      <h2>¿Tecsion Group?</h2>
       <p>
         Somos una empresa dedicada a brindar soluciones tecnológicas
         innovadoras. Nuestro equipo de expertos está listo para ayudarte a
@@ -65,16 +65,16 @@
     </p>
     <div class="partners-slider">
       <div class="slide-track">
-        <div class="slide"><img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Cisco" /></div>
-        <div class="slide"><img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Panduit" /></div>
-        <div class="slide"><img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Siemon" /></div>
-        <div class="slide"><img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Ubiquiti" /></div>
+        <div class="slide"><img src="@/assets/bank_img/modulos/partners/microsoft.jpg" alt="microsoft" /></div>
+        <div class="slide"><img src="@/assets/bank_img/modulos/partners/google.jpg" alt="google" /></div>
+        <div class="slide"><img src="@/assets/bank_img/modulos/partners/acronis.jpg" alt="acronis" /></div>
+        <div class="slide"><img src="@/assets/bank_img/modulos/partners/kaspersky.jpg" alt="kaspersky" /></div>
 
         <!-- Copia para efecto infinito -->
-        <div class="slide"><img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Cisco" /></div>
-        <div class="slide"><img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Panduit" /></div>
-        <div class="slide"><img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Siemon" /></div>
-        <div class="slide"><img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Ubiquiti" /></div>
+        <div class="slide"><img src="@/assets/bank_img/modulos/partners/microsoft.jpg" alt="microsoft" /></div>
+        <div class="slide"><img src="@/assets/bank_img/modulos/partners/google.jpg" alt="google" /></div>
+        <div class="slide"><img src="@/assets/bank_img/modulos/partners/acronis.jpg" alt="acronis" /></div>
+        <div class="slide"><img src="@/assets/bank_img/modulos/partners/kaspersky.jpg" alt="kaspersky" /></div>
       </div>
     </div>
   </div>
@@ -89,31 +89,31 @@ export default {
       services: [
         {
           id: 1,
-          title: "Desarrollo Web",
+          title: "Sitios Web",
           description: "Creación de sitios web personalizados y optimizados.",
           image: "develop.jpg",
-          route: "/ServicesPage1", // Ruta para el servicio Desarrollo Web
+          route: "/SitiosWeb", // Ruta para el servicio Sitios Web
         },
         {
           id: 2,
           title: "Consultoría IT",
           description: "Asesoramiento en tecnologías de la información.",
           image: "consultoria.jpg",
-          route: "/ServicesPage2", // Ruta para Consultoría IT
+          route: "/Consultoria", // Ruta para Consultoría IT
         },
         {
           id: 3,
           title: "Ciberseguridad",
           description: "Protege tus aplicaciones, sistemas críticos y datos de posibles amenazas digitales.",
           image: "ciberseguridad.jpg",
-          route: "/servicesPage3", // Ruta para Ciberseguridad
+          route: "/Ciberseguridad", // Ruta para Ciberseguridad
         },
         {
           id: 4,
           title: "Infraestructura",
           description: "Conecta los componentes de tu organización en un solo entorno.",
           image: "infraestructura.jpg",
-          route: "/servicesPage4", // Ruta para Infraestructura
+          route: "/Infraestructura", // Ruta para Infraestructura
         },
       ],
     };
