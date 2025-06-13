@@ -83,21 +83,29 @@
     </section>
   
     <!-- Partners Aliados -->
-    <section class="partners-section">
-      <div class="partners-container">
-        <h2>Partners Aliados</h2>
-        <p class="partners-description">
-          Trabajamos con marcas líderes para garantizar la calidad del mantenimiento de tus equipos.
-        </p>
-        <div class="partners-logos">
-          <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Cisco" />
-          <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="HP" />
-          <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Lenovo" />
-          <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Dell" />
-        </div>
+<section class="partners-section">
+  <div class="partners-container">
+    <h2>Marcas aliadas</h2>
+    <p class="partners-description">
+      Colaboramos con fabricantes líderes a nivel mundial para ofrecer productos de alta calidad.
+    </p>
+    <div class="partners-logos">
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/mantenimiento/asrock.png" alt="asrock" />
       </div>
-    </section>
-  </template>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/mantenimiento/asus.png" alt="asus" />
+      </div>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/mantenimiento/gigabyte.png" alt="gigabyte" />
+      </div>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/mantenimiento/msi.png" alt="msi" />
+      </div>
+    </div>
+  </div>
+  </section>
+</template>
   
   <script>
   export default {

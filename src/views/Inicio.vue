@@ -65,16 +65,22 @@
     </p>
     <div class="partners-slider">
       <div class="slide-track">
-        <div class="slide"><img src="@/assets/bank_img/modulos/partners/microsoft.jpg" alt="microsoft" /></div>
-        <div class="slide"><img src="@/assets/bank_img/modulos/partners/google.jpg" alt="google" /></div>
-        <div class="slide"><img src="@/assets/bank_img/modulos/partners/acronis.jpg" alt="acronis" /></div>
-        <div class="slide"><img src="@/assets/bank_img/modulos/partners/kaspersky.jpg" alt="kaspersky" /></div>
+        <div class="slide"><img src="@/assets/bank_img/modulos/partners/Microsoft.png" alt="Microsoft" /></div>
+        <div class="slide"><img src="@/assets/bank_img/modulos/partners/google.png" alt="google" /></div>
+        <div class="slide"><img src="@/assets/bank_img/modulos/partners/hikvision.png" alt="hikvision" /></div>
+        <div class="slide"><img src="@/assets/bank_img/modulos/partners/amd.png" alt="amd" /></div>
+        <div class="slide"><img src="@/assets/bank_img/modulos/partners/lenovo.png" alt="lenovo" /></div>
+        <div class="slide"><img src="@/assets/bank_img/modulos/partners/McAfee.png" alt="McAfee" /></div>
+        <div class="slide"><img src="@/assets/bank_img/modulos/partners/paloalto.png" alt="paloalto" /></div>
 
         <!-- Copia para efecto infinito -->
-        <div class="slide"><img src="@/assets/bank_img/modulos/partners/microsoft.jpg" alt="microsoft" /></div>
-        <div class="slide"><img src="@/assets/bank_img/modulos/partners/google.jpg" alt="google" /></div>
-        <div class="slide"><img src="@/assets/bank_img/modulos/partners/acronis.jpg" alt="acronis" /></div>
-        <div class="slide"><img src="@/assets/bank_img/modulos/partners/kaspersky.jpg" alt="kaspersky" /></div>
+        <div class="slide"><img src="@/assets/bank_img/modulos/partners/Microsoft.png" alt="Microsoft" /></div>
+        <div class="slide"><img src="@/assets/bank_img/modulos/partners/google.png" alt="google" /></div>
+        <div class="slide"><img src="@/assets/bank_img/modulos/partners/hikvision.png" alt="hikvision" /></div>
+        <div class="slide"><img src="@/assets/bank_img/modulos/partners/amd.png" alt="amd" /></div>
+        <div class="slide"><img src="@/assets/bank_img/modulos/partners/lenovo.png" alt="lenovo" /></div>
+        <div class="slide"><img src="@/assets/bank_img/modulos/partners/McAfee.png" alt="McAfee" /></div>
+        <div class="slide"><img src="@/assets/bank_img/modulos/partners/paloalto.png" alt="paloalto" /></div>
       </div>
     </div>
   </div>
@@ -99,7 +105,7 @@ export default {
           title: "Consultoría IT",
           description: "Asesoramiento en tecnologías de la información.",
           image: "consultoria.jpg",
-          route: "/Consultoria", // Ruta para Consultoría IT
+          route: "/ConsultoriaIT", // Ruta para Consultoría IT
         },
         {
           id: 3,

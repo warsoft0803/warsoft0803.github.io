@@ -78,16 +78,16 @@
       <h3>Nuestra fuerza de trabajo</h3>
       <div class="statistics-grid">
         <div class="stat">
-          <span class="stat-number">+40</span>
+          <span class="stat-number">+2</span>
           <p>Colaboradores</p>
         </div>
         <div class="stat">
-          <span class="stat-number">+130</span>
-          <p>Trabajadores indirectos</p>
+          <span class="stat-number">+7</span>
+          <p>Empresas atendidas con soluciones</p>
         </div>
         <div class="stat">
-          <span class="stat-number">+23</span>
-          <p>Años de experiencia</p>
+          <span class="stat-number">+10</span>
+          <p>Años de experiencia profesiona</p>
         </div>
       </div>
     </div>

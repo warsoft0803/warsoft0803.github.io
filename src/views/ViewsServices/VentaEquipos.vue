@@ -82,20 +82,28 @@
     </div>
   </section>
 
-  <!-- Partners Aliados -->
-  <section class="partners-section">
-    <div class="partners-container">
-      <h2>Marcas Aliadas</h2>
-      <p class="partners-description">
-        Trabajamos con los mejores fabricantes del sector para ofrecerte tecnología confiable, durable y de alto rendimiento.
-      </p>
-      <div class="partners-logos">
-        <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Cisco" />
-        <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="HP" />
-        <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Lenovo" />
-        <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Dell" />
+    <!-- Partners Aliados -->
+<section class="partners-section">
+  <div class="partners-container">
+    <h2>Aliados estrategicos</h2>
+    <p class="partners-description">
+      Distribuimos equipos de cómputo de las marcas líderes del mercado, garantizando calidad, rendimiento y respaldo.
+    </p>
+    <div class="partners-logos">
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/ventas/lenovo.png" alt="lenovo" />
+      </div>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/ventas/hp.png" alt="hp" />
+      </div>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/ventas/apple.png" alt="apple" />
+      </div>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/ventas/dell.png" alt="dell" />
       </div>
     </div>
+  </div>
   </section>
 </template>
 

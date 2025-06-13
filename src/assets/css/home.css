@@ -238,7 +238,7 @@ body, html {
 /* Sección de Partners */
 .partners-section {
   padding: 80px 20px;
-  background: linear-gradient(135deg, #204392 0%, #1e293b 100%);
+  background: linear-gradient(135deg, #7198f5 0%, #1e293b 100%);
   color: #ffffff;
   text-align: center;
   position: relative;
@@ -283,14 +283,18 @@ body, html {
   justify-content: center;
   align-items: center;
   padding: 10px;
+  background-color: transparent; /* Asegura fondo transparente */
 }
 
 .slide img {
   width: 120px;
   height: auto;
-  opacity: 0.8;
+  object-fit: contain;           /* Se adapta sin deformar */
+  background-color: transparent; /* Elimina cualquier fondo interno */
   transition: all 0.3s ease-in-out;
+  opacity: 0.8;
 }
+
 
 .slide img:hover {
   opacity: 1;

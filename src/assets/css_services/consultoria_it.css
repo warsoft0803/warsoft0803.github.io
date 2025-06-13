@@ -100,7 +100,7 @@
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   }
 
-  /* Sección de Partners */
+/* Sección de Partners */
 .partners-section {
   padding: 80px 20px;
   background: linear-gradient(135deg, #204392 0%, #1e293b 100%);
@@ -121,7 +121,7 @@
   margin-bottom: 10px;
   color: #38bdf8; /* azul moderno */
 }
-a
+
 .partners-description {
   font-size: 1.1rem;
   margin-bottom: 40px;
@@ -135,18 +135,22 @@ a
   gap: 40px;
 }
 
+/* Imágenes en color (sin gris) */
 .partners-logos img {
   width: 120px;
   height: auto;
-  filter: grayscale(100%);
-  opacity: 0.8;
+  filter: grayscale(0%); /* Elimina el filtro de grises */
+  opacity: 1; /* Opacidad completa */
   transition: all 0.3s ease-in-out;
 }
 
+/* Efecto al hover (opcional) */
 .partners-logos img:hover {
-  filter: grayscale(0%);
-  opacity: 1;
-  transform: scale(1.05);
+  transform: scale(1.05); /* Pequeño zoom */
+  /* Otros efectos opcionales:
+     filter: brightness(1.1); 
+     box-shadow: 0 0 15px rgba(56, 189, 248, 0.3);
+  */
 }
 
   

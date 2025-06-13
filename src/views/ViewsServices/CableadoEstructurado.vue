@@ -82,18 +82,26 @@
       </div>
     </section>
   
-   <!-- Partners Aliados -->
+    <!-- Partners Aliados -->
 <section class="partners-section">
   <div class="partners-container">
-    <h2>Partners Aliados</h2>
+    <h2>Tecnologías Integradas</h2>
     <p class="partners-description">
-      Aliados estratégicos en soluciones de cableado estructurado e infraestructura tecnológica.
+      Integramos soluciones reconocidas globalmente para mejorar nuestros servicios.
     </p>
     <div class="partners-logos">
-      <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Cisco" />
-      <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Panduit" />
-      <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Siemon" />
-      <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Ubiquiti" />
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/cableado/belkin.png" alt="belkin" />
+      </div>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/cableado/commscope.png" alt="commscope" />
+      </div>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/cableado/levolor.png" alt="levolor" />
+      </div>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/cableado/grok.png" alt="grok" />
+      </div>
     </div>
   </div>
 </section>
@@ -102,7 +110,7 @@
   
   <script>
   export default {
-    name: "ServicesPage5.vue",
+    name: "CableadoEstructuradoPage.vue",
   };
   </script>
   

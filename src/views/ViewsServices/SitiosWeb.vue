@@ -107,23 +107,29 @@
         </div>
       </div>
   </section>
-
   <!-- Partners Aliados -->
 <section class="partners-section">
   <div class="partners-container">
-    <h2>Variedad de lenguajes</h2>
+    <h2>Tecnologías de Vanguardia</h2>
     <p class="partners-description">
-        Realizamos desarrollo web con frameworks y tecnologias modernas.
+      Implementamos las soluciones tecnológicas más alta demanda
     </p>
     <div class="partners-logos">
-      <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Cisco" />
-      <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Panduit" />
-      <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Siemon" />
-      <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Ubiquiti" />
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/tecnologias/vue.png" alt="vue" />
+      </div>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/tecnologias/js.png" alt="js" />
+      </div>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/tecnologias/html.png" alt="vue" />
+      </div>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/tecnologias/css.png" alt="vue" />
+      </div>
     </div>
   </div>
 </section>
-
 </template>
 
 <script>

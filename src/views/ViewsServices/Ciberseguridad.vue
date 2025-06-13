@@ -106,28 +106,34 @@
       </div>
     </div>
   </section>
-
-  <!-- Partners Aliados -->
-  <section class="partners-section">
-      <div class="partners-container">
-        <h2>Partners Aliados</h2>
-        <p class="partners-description">
-          Trabajamos con marcas líderes para garantizar la calidad del mantenimiento de tus equipos.
-        </p>
-        <div class="partners-logos">
-          <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Cisco" />
-          <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="HP" />
-          <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Lenovo" />
-          <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Dell" />
-        </div>
+    <!-- Partners Aliados -->
+<section class="partners-section">
+  <div class="partners-container">
+    <h2>Tecnologías Integradas</h2>
+    <p class="partners-description">
+      Integramos soluciones reconocidas globalmente para mejorar nuestros servicios.
+    </p>
+    <div class="partners-logos">
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/ciberseguridad/AVG.png" alt="AVG" />
       </div>
-    </section>
-    
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/ciberseguridad/debian.png" alt="debian" />
+      </div>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/ciberseguridad/mcafee.png" alt="mcafee" />
+      </div>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/ciberseguridad/redhat.png" alt="redhat" />
+      </div>
+    </div>
+  </div>
+</section>
 </template>
 
 <script>
 export default {
-  name: "ServicesPage3.vue",
+  name: "CiberseguridadPage.vue",
 };
 </script>
 

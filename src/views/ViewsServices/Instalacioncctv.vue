@@ -83,21 +83,29 @@
     </section>
   
     <!-- Partners Aliados -->
-    <section class="partners-section">
-      <div class="partners-container">
-        <h2>Marcas Aliadas</h2>
-        <p class="partners-description">
-          Trabajamos con fabricantes líderes para garantizar soluciones de videovigilancia confiables y eficientes.
-        </p>
-        <div class="partners-logos">
-          <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Cisco" />
-          <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="HP" />
-          <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Lenovo" />
-          <img src="@/assets/bank_img/servicios/cableado/partner/cisco.png" alt="Dell" />
-        </div>
+<section class="partners-section">
+  <div class="partners-container">
+    <h2>Marcas Aliadas</h2>
+    <p class="partners-description">
+      Ofrecemos soluciones en videovigilancia con marcas líderes en seguridad, tecnología y confianza.
+    </p>
+    <div class="partners-logos">
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/cctv/dahua.png" alt="dahua" />
       </div>
-    </section>
-  </template>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/cctv/hikvision.png" alt="hikvision" />
+      </div>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/cctv/ezviz.png" alt="ezviz" />
+      </div>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/cctv/reolink.png" alt="reolink" />
+      </div>
+    </div>
+  </div>
+  </section>
+</template>
   
   <script>
   export default {
