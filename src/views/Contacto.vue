@@ -39,7 +39,7 @@
       </div>
 
       <!-- Campo oculto para redirigir después del envío -->
-      <input type="hidden" name="_next" value="https://tiny-jelly-e57d4b.netlify.app/contact"/>
+      <input type="hidden" name="_next" value="https://tiny-jelly-e57d4b.netlify.app/Contacto"/>
 
       <!--No me direccione al recapcha-->
       <input type="hidden" name="_captcha" value="false"/>
