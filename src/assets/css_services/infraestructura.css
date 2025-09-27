@@ -160,6 +160,70 @@ button:hover {
     opacity: 1;
   }
 }
+/* Sección de Partners - Versión responsive */
+.partners-section {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #204392 0%, #1e293b 100%);
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.partners-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.partners-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #38bdf8;
+}
+
+.partners-description {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  color: #cbd5e1;
+}
+
+/* Contenedor de logos - Responsive */
+.partners-logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* Contenedor individual para cada imagen (mantiene el espacio fijo) */
+.partner-logo-container {
+  width: 160px; /* Ancho fijo */
+  height: 100px; /* Alto fijo (ajusta según necesites) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 8px; /* Opcional: bordes redondeados */
+}
+
+/* Imágenes responsive dentro del contenedor */
+.partner-logo-container img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain; /* Mantiene la proporción sin recortar */
+  filter: grayscale(0%);
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Efecto hover */
+.partner-logo-container img:hover {
+  transform: scale(1.05);
+}
+
 
 /* Responsividad para pantallas menores a 768px (tablets) */
 @media (max-width: 768px) {

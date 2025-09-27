@@ -1,6 +1,17 @@
-<!--Esta seccion son de servicios que se ofrecen-->
-
 <template>
+  <!--boton de whatsapp flotante-->
+    <!-- Botón flotante de WhatsApp -->
+    <a
+      href="https://wa.me/3166132308"
+      class="whatsapp-button"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="@/assets/bank_img/modulos/whatsapp.png"
+        alt="Chat en WhatsApp"
+      />
+    </a>
   <div>
     <!-- Sección de héroe con imagen de portada -->
     <section class="hero">
@@ -15,6 +26,7 @@
         <button @click="scrollToServices">Explora Nuestros Servicios</button>
       </div>
     </section>
+
     <!-- Sección de Servicios -->
     <div class="services-container" ref="servicesSection">
       <h1 class="services-title">Más Servicios</h1>
@@ -24,17 +36,22 @@
           v-for="(pair, index) in groupedServices"
           :key="index"
         >
-          <div class="service-card" v-for="service in pair" :key="service.id">
+          <router-link
+            v-for="service in pair"
+            :key="service.id"
+            :to="service.route"
+            class="service-card"
+          >
             <img
               :src="require(`@/assets/bank_img/modulos/${service.image}`)"
-              alt="Imagen de {{ service.name }}"
+              :alt="'Imagen de ' + service.name"
               class="service-image"
             />
             <div class="service-info">
               <h2 class="service-name">{{ service.name }}</h2>
               <p class="service-description">{{ service.description }}</p>
             </div>
-          </div>
+          </router-link>
         </div>
       </div>
     </div>
@@ -52,31 +69,28 @@ export default {
           name: "Cableado Estructurado",
           description: "Infraestructura cableado estructurado.",
           image: "cableado.jpg",
+          route: "/CableadoEstructurado",
         },
         {
           id: 2,
-          name: "Mantenimiento Preventivo Correctivo",
+          name: "Mantenimiento Preventivo y Correctivo",
           description: "Asesoramiento en tecnologías de la información.",
           image: "mantenimiento.jpg",
+          route: "/MantenimientoPreventivoyCorrectivo",
         },
         {
           id: 3,
-          name: "Venta de equipos de computo",
-          description:
-            "Conecta los componentes de tu organización en un solo entorno.",
+          name: "Venta equipos de computo",
+          description: "Conecta los componentes de tu organización en un solo entorno.",
           image: "ventaequipos.jpg",
+          route: "/VentaEquipos",
         },
         {
           id: 4,
           name: "Instalación CCTV",
           description: "Incluye Circuito Cerrado de Televisión.",
           image: "cctv.jpg",
-        },
-        {
-          id: 5,
-          name: "Marketing Digital",
-          description: "Estrategias para potenciar tu presencia en línea.",
-          image: "marketing.jpg",
+          route: "/Instalacioncctv",
         },
       ],
     };

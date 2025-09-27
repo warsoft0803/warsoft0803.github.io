@@ -109,7 +109,7 @@ body, html {
 .about {
   padding: 100px 20px;
   text-align: center;
-  background-color: #3d39b3;
+  background-color: rgba(0, 34, 68, 0.9);
   color: #fff;
   width: 100vw;
 }
@@ -233,6 +233,82 @@ body, html {
 .whatsapp-button img {
   width: 40px;
   height: 40px;
+}
+
+/* Sección de Partners */
+.partners-section {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #7198f5 0%, #1e293b 100%);
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.partners-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.partners-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #38bdf8; /* azul moderno */
+}
+
+.partners-description {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  color: #cbd5e1;
+}
+
+/* Slider con animación */
+.partners-slider {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.slide-track {
+  display: flex;
+  width: calc(250px * 8);
+  animation: scrollSlider 30s linear infinite;
+}
+
+.slide {
+  width: 250px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: transparent; /* Asegura fondo transparente */
+}
+
+.slide img {
+  width: 120px;
+  height: auto;
+  object-fit: contain;           /* Se adapta sin deformar */
+  background-color: transparent; /* Elimina cualquier fondo interno */
+  transition: all 0.3s ease-in-out;
+  opacity: 0.8;
+}
+
+
+.slide img:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+/* Animación */
+@keyframes scrollSlider {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 /* Media Queries */

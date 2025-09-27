@@ -1,6 +1,21 @@
 <!--Vista de consultoria-->
 
 <template>
+<!--boton de whatsapp flotante-->
+
+    <!-- Botón flotante de WhatsApp -->
+    <a
+      href="https://wa.me/3166132308"
+      class="whatsapp-button"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="@/assets/bank_img/modulos/whatsapp.png"
+        alt="Chat en WhatsApp"
+      />
+    </a>
+    
   <!-- Sección de héroe con imagen de portada -->
   <section class="hero">
     <img
@@ -82,12 +97,36 @@
           <strong>Compromiso:</strong> Tu éxito es nuestra prioridad.<br>
           <strong>Excelencia:</strong> Ofrecemos soluciones de la más alta calidad.
         </p>
-        <a href="https://google.com" target="_blank">
+        <a href="https://wa.me/3166132308" target="_blank">
           <button>Agenda una cita</button>
         </a>
       </div>
     </div>
   </section>
+
+   <!-- Partners Aliados -->
+<section class="partners-section">
+  <div class="partners-container">
+    <h2>Soluciones de Confianza</h2>
+    <p class="partners-description">
+      Trabajamos con marcas líderes para garantizar la calidad de los productos
+    </p>
+    <div class="partners-logos">
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/partnets/analytics.png" alt="google analytics" />
+      </div>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/partnets/kyocera.png" alt="kyocera" />
+      </div>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/partnets/adobe.png" alt="adobe" />
+      </div>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/partnets/seagate.png" alt="seagate" />
+      </div>
+    </div>
+  </div>
+</section>
 </template>
   
   <script>

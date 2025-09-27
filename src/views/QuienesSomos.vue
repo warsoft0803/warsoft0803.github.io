@@ -1,6 +1,21 @@
 <!--Una página que proporciona información sobre la empresa y estadisticas los clientes.-->
 
 <template>
+<!--boton de whatsapp flotante-->
+
+    <!-- Botón flotante de WhatsApp -->
+    <a
+      href="https://wa.me/3166132308"
+      class="whatsapp-button"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="@/assets/bank_img/modulos/whatsapp.png"
+        alt="Chat en WhatsApp"
+      />
+    </a>
+
   <section class="about-section">
     <!-- Sección de Servicios -->
     <div class="content-wrapper">
@@ -63,16 +78,16 @@
       <h3>Nuestra fuerza de trabajo</h3>
       <div class="statistics-grid">
         <div class="stat">
-          <span class="stat-number">+40</span>
+          <span class="stat-number">+2</span>
           <p>Colaboradores</p>
         </div>
         <div class="stat">
-          <span class="stat-number">+130</span>
-          <p>Trabajadores indirectos</p>
+          <span class="stat-number">+7</span>
+          <p>Empresas atendidas con soluciones</p>
         </div>
         <div class="stat">
-          <span class="stat-number">+23</span>
-          <p>Años de experiencia</p>
+          <span class="stat-number">+10</span>
+          <p>Años de experiencia profesiona</p>
         </div>
       </div>
     </div>

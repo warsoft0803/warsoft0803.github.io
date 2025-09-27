@@ -1,0 +1,159 @@
+/* Sección de Partners - Versión responsive */
+.partners-section {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #204392 0%, #1e293b 100%);
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.partners-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.partners-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #38bdf8;
+}
+
+.partners-description {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  color: #cbd5e1;
+}
+
+/* Contenedor de logos - Responsive */
+.partners-logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* Contenedor individual para cada imagen (mantiene el espacio fijo) */
+.partner-logo-container {
+  width: 160px; /* Ancho fijo */
+  height: 100px; /* Alto fijo (ajusta según necesites) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 8px; /* Opcional: bordes redondeados */
+}
+
+/* Imágenes responsive dentro del contenedor */
+.partner-logo-container img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain; /* Mantiene la proporción sin recortar */
+  filter: grayscale(0%);
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Efecto hover */
+.partner-logo-container img:hover {
+  transform: scale(1.05);
+}
+
+
+/* Responsividad para pantallas menores a 768px (tablets) */
+@media (max-width: 768px) {
+  .hero {
+    height: 50vh; /* Reducir la altura del héroe */
+    padding: 60px 20px; /* Ajustar el padding */
+  }
+
+  .hero h1 {
+    font-size: 2rem; /* Reducir el tamaño del título */
+  }
+
+  .hero p {
+    font-size: 1rem; /* Reducir el tamaño del texto */
+    max-width: 90%; /* Ajustar el ancho máximo del texto */
+  }
+
+  .about-section {
+    padding: 30px 20px; /* Reducir el padding */
+  }
+
+  .content-wrapper {
+    flex-direction: column; /* Cambiar a disposición vertical */
+    text-align: center; /* Centrar el texto */
+    gap: 15px; /* Reducir el espacio entre elementos */
+  }
+
+  .content-wrapper.reverse {
+    flex-direction: column; /* Mantener la disposición vertical incluso en reversa */
+  }
+
+  .text {
+    padding: 10px; /* Reducir el padding */
+    max-width: 100%; /* Ajustar el ancho máximo del texto */
+  }
+
+  .text h2 {
+    font-size: 1.8rem; /* Reducir el tamaño del título */
+  }
+
+  .text p {
+    font-size: 0.9rem; /* Reducir el tamaño del texto */
+  }
+
+  .image {
+    max-width: 100%; /* Ajustar el ancho máximo de la imagen */
+  }
+
+  .image img {
+    max-width: 90%; /* Reducir el tamaño de la imagen */
+  }
+
+  button {
+    padding: 8px 16px; /* Reducir el padding del botón */
+    font-size: 0.9rem; /* Reducir el tamaño de la fuente del botón */
+  }
+}
+
+/* Responsividad para pantallas menores a 480px (móviles) */
+@media (max-width: 480px) {
+  .hero {
+    height: 40vh; /* Reducir aún más la altura del héroe */
+    padding: 40px 15px; /* Reducir el padding */
+  }
+
+  .hero h1 {
+    font-size: 1.5rem; /* Reducir el tamaño del título */
+  }
+
+  .hero p {
+    font-size: 0.9rem; /* Reducir el tamaño del texto */
+  }
+
+  .about-section {
+    padding: 20px 15px; /* Reducir aún más el padding */
+  }
+
+  .text h2 {
+    font-size: 1.5rem; /* Reducir el tamaño del título */
+  }
+
+  .text p {
+    font-size: 0.8rem; /* Reducir el tamaño del texto */
+  }
+
+  .image img {
+    max-width: 100%; /* Ajustar la imagen al ancho completo */
+  }
+
+  button {
+    padding: 6px 12px; /* Reducir aún más el padding del botón */
+    font-size: 0.8rem; /* Reducir el tamaño de la fuente del botón */
+  }
+}
+  

@@ -20,36 +20,24 @@
       </div>
       <div class="footer-location">
         <h3>Sede Bogota</h3>
-        <p>📞 XXX-XXX | +57 XXX XXX XXX</p>
-        <p>📍 Direccion – OFICINA </p>
-        <p>✉️ Correo: info@warsoft.com</p>
+        <p>📞 601 678 0283- | +57 316 613 2308</p>
+        <p>📍 Dir. Calle 2 n 91 c 85 – Oficina N.8 </p>
+        <p>✉️ Correo: info@tecsiongroup.com</p>
       </div>
       <div class="footer-location">
-        <h3>Sede Cali</h3>
-        <p>📞 604 2079773 | +57 319 672 3171</p>
-        <p>📍 Carrera 103 #11 – 40 | Cali</p>
-        <p>✉️ Correo: info@warsoft.com</p>
+        <h3>Politicas</h3>
+        <p>Politicas de tratamiento de datos</p>
+        <p>Terminos y condiciones</p>
       </div>
       <div class="footer-links">
-        <h3>Información Adicional</h3>
+        <h3>Tecsion Group</h3>
         <ul>
-          <li>Consultoria</li>
-          <li>Inovaccion</li>
-
-          <!--<li><router-link to="/about">Nuestra Historia</router-link></li> 
-          Ejemplo documento este texto tener el ejemplo documentar router dentro del mismo web-->
-      
+          <li>Llevamos la tecnología de tu empresa al siguiente nivel</li>
         </ul>
       </div>
     </div>
     <div class="footer-final">
-      <p>Warsoft © 2024 Diseñado por warsoft soluciones S.A.S</p>
-      <div class="payment-icons">
-        <img src="@/assets/bank_img/modulos/logo.png" alt="Visa" />
-        <img src="@/assets/bank_img/modulos/logo.png" alt="MasterCard" />
-        <img src="@/assets/bank_img/modulos/logo.png" alt="PayPal" />
-        <img src="@/assets/bank_img/modulos/logo.png" alt="American Express" />
-      </div>
+      <p>Tecsion Group © 2025 Diseñado por Tecsion Group</p>
     </div>
   </footer>
 </template>

@@ -1,4 +1,19 @@
 <template>
+<!--boton de whatsapp flotante-->
+
+    <!-- Botón flotante de WhatsApp -->
+    <a
+      href="https://wa.me/3166132308"
+      class="whatsapp-button"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="@/assets/bank_img/modulos/whatsapp.png"
+        alt="Chat en WhatsApp"
+      />
+    </a>
+    
   <!-- Sección de héroe con imagen de portada ciberseguridad -->
 
   <section class="hero">
@@ -85,17 +100,40 @@
           <strong>Excelencia:</strong> Ofrecemos soluciones personalizadas y de
           calidad superior.
         </p>
-        <a href="https://google.com" target="_blank">
+        <a href="https://wa.me/3166132308" target="_blank">
           <button>Agenda una consultoría</button>
         </a>
       </div>
     </div>
   </section>
+    <!-- Partners Aliados -->
+<section class="partners-section">
+  <div class="partners-container">
+    <h2>Tecnologías Integradas</h2>
+    <p class="partners-description">
+      Integramos soluciones reconocidas globalmente para mejorar nuestros servicios.
+    </p>
+    <div class="partners-logos">
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/ciberseguridad/AVG.png" alt="AVG" />
+      </div>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/ciberseguridad/debian.png" alt="debian" />
+      </div>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/ciberseguridad/mcafee.png" alt="mcafee" />
+      </div>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/ciberseguridad/redhat.png" alt="redhat" />
+      </div>
+    </div>
+  </div>
+</section>
 </template>
 
 <script>
 export default {
-  name: "ServicesPage3.vue",
+  name: "CiberseguridadPage.vue",
 };
 </script>
 

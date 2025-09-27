@@ -1,4 +1,19 @@
 <template>
+  <!--boton de whatsapp flotante-->
+
+    <!-- Botón flotante de WhatsApp -->
+    <a
+      href="https://wa.me/3166132308"
+      class="whatsapp-button"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="@/assets/bank_img/modulos/whatsapp.png"
+        alt="Chat en WhatsApp"
+      />
+    </a>
+    
   <!-- Sección de héroe con imagen de portada -->
   <section class="hero">
     <img
@@ -7,7 +22,7 @@
       class="hero-image"
     />
     <div class="hero-content">
-      <h1>Fortalece tu Infraestructura Tecnológica</h1>
+      <h1>Infraestructura Tecnológica</h1>
       <p>
         Diseñamos e implementamos soluciones para proteger tus sistemas críticos y garantizar la continuidad operativa.
       </p>
@@ -74,12 +89,35 @@
           <strong>Resiliencia:</strong> Preparamos tu infraestructura ante cualquier amenaza.<br />
           <strong>Innovación:</strong> Incorporamos tecnologías emergentes tomar la mejor desicion para tu compañia.
         </p>
-        <a href="https://google.com" target="_blank">
+        <a href="https://wa.me/3166132308" target="_blank">
           <button>Solicita una evaluación de tu infraestructura</button>
         </a>
       </div>
     </div>
   </section>
+    <!-- Partners Aliados -->
+<section class="partners-section">
+  <div class="partners-container">
+    <h2>Tecnologías Integradas</h2>
+    <p class="partners-description">
+      Integramos soluciones reconocidas globalmente para mejorar nuestros servicios.
+    </p>
+    <div class="partners-logos">
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/infraestructura/aws.png" alt="aws" />
+      </div>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/infraestructura/ibm.png" alt="ibm" />
+      </div>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/infraestructura/intel.png" alt="intel" />
+      </div>
+      <div class="partner-logo-container">
+        <img src="@/assets/bank_img/servicios/aliados/infraestructura/tplink.png" alt="tlink" />
+      </div>
+    </div>
+  </div>
+</section>
 </template>
 
 <script>
