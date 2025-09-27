@@ -6,8 +6,8 @@
     <header class="hero">
       <div class="hero-background">
         <h1>Bienvenido a Tecsion Group</h1>
-        <p>Soluciones tecnológicas personalizadas diseñadas
-           específicamente para impulsar el crecimiento y la eficiencia de tu negocio.
+        <p>Desarrollamos soluciones tecnológicas a la medida, pensadas estratégicamente
+           para potenciar el crecimiento, optimizar procesos y elevar la eficiencia operativa de tu negocio.
         </p>
       </div>
     </header>
@@ -32,9 +32,9 @@
     <section class="about">
       <h2>¿Tecsion Group?</h2>
       <p>
-        Somos una empresa dedicada a brindar soluciones tecnológicas
-        innovadoras. Nuestro equipo de expertos está listo para ayudarte a
-        transformar tu negocio y llevarlo al siguiente nivel.
+        Somos una empresa especializada en ofrecer soluciones tecnológicas innovadoras. 
+        Contamos con un equipo de expertos comprometido con transformar tu negocio,
+        impulsarlo hacia la digitalización y llevarlo al siguiente nivel.
       </p>
     </section>
     
