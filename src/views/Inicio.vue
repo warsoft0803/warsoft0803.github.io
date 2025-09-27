@@ -128,5 +128,5 @@ export default {
 </script>
 
 <style>
-@import "@/assets/css/home.css"; /* Importa el archivo CSS */
+@import "@/assets/css/home-scoped.css"; /* Importa el archivo CSS */
 </style>
