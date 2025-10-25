@@ -100,7 +100,7 @@
           <strong>Excelencia:</strong> Ofrecemos soluciones personalizadas y de
           calidad superior.
         </p>
-        <a href="https://wa.me/3166132308" target="_blank">
+        <a href="https://wa.me/3166132308" target="_blank" rel="noopener noreferrer">
           <button>Agenda una consultoría</button>
         </a>
       </div>

@@ -75,7 +75,7 @@
             <strong>Seguridad:</strong> Instalaciones seguras, limpias y organizadas.<br />
             <strong>Compromiso:</strong> Garantía por escrito en todos nuestros trabajos.
           </p>
-          <a href="/Contact">
+          <a href="https://wa.me/3166132308" target="_blank" rel="noopener noreferrer">
             <button>Solicita tu diagnóstico gratuito</button>
           </a>
         </div>

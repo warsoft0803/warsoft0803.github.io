@@ -75,7 +75,7 @@
           <strong>Soporte:</strong> Acompañamiento técnico postventa.<br />
           <strong>Confianza:</strong> Atención personalizada y marcas reconocidas.
         </p>
-        <a href="/Contact">
+        <a href="https://wa.me/3166132308" target="_blank" rel="noopener noreferrer">
           <button>Solicita una cotización</button>
         </a>
       </div>

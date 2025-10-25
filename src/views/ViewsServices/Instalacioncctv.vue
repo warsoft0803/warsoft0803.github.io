@@ -75,7 +75,7 @@
             <strong>Soporte:</strong> Atención técnica especializada postventa.<br />
             <strong>Garantía:</strong> Instalaciones con respaldo profesional.
           </p>
-          <a href="/Contact">
+          <a href="https://wa.me/3166132308" target="_blank" rel="noopener noreferrer">
             <button>Solicita una asesoría gratuita</button>
           </a>
         </div>

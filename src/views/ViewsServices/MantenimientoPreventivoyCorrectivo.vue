@@ -75,7 +75,7 @@
             <strong>Rapidez:</strong> Intervenciones técnicas en tiempos mínimos.<br />
             <strong>Confianza:</strong> Personal capacitado y garantía en nuestros servicios.
           </p>
-          <a href="/Contact">
+          <a href="https://wa.me/3166132308" target="_blank" rel="noopener noreferrer">
             <button>Solicita tu revisión gratuita</button>
           </a>
         </div>

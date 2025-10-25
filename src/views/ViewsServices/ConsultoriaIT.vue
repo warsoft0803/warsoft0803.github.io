@@ -97,7 +97,7 @@
           <strong>Compromiso:</strong> Tu éxito es nuestra prioridad.<br>
           <strong>Excelencia:</strong> Ofrecemos soluciones de la más alta calidad.
         </p>
-        <a href="https://wa.me/3166132308" target="_blank">
+        <a href="https://wa.me/3166132308" target="_blank"> rel="noopener noreferrer">
           <button>Agenda una cita</button>
         </a>
       </div>
