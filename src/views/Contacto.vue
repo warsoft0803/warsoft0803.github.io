@@ -2,7 +2,7 @@
   <div class="contact">
     <h1>Contáctanos</h1>
     <p>
-      Si tienes alguna pregunta, no dudes en comunicarte con nosotros mediante el siguiente formulario.
+      Si tienes alguna pregunta, no dudes en comunicarte mediante el siguiente formulario.
     </p>
 <!--en esta seccion se integra endpoint del formulario para que funcione-->
     <form action="https://formsubmit.co/478b59a40b7d2fcb0613775063de7b6b" method="POST" @submit.prevent="handleSubmit">
@@ -44,7 +44,7 @@
       <!--No me direccione al recapcha-->
       <input type="hidden" name="_captcha" value="false"/>
 
-      <!-- Botón de envío dinámico -->
+      <!-- Botón de envío dinámicos -->
       <button type="submit" :disabled="loading">
         {{ loading ? "Enviando..." : "Enviar" }}
       </button>
